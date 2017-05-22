@@ -8,7 +8,7 @@ ENV container docker
 RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ADD nzbget-18.1-1.el7.x86_64.rpm /tmp/nzbget-18.1-1.el7.x86_64.rpm
 RUN yum install -y /tmp/nzbget-18.1-1.el7.x86_64.rpm
-RUN yum install -y supervisord
+RUN yum install -y supervisor
 RUN yum update -y
 RUN yum clean all
 
