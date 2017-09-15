@@ -1,7 +1,7 @@
 # docker-centos-nzbget
-## NZBget running on the latest CentOS docker image (7.3)
-### Build Version: 2
-Date: 10th July 2017
+## NZBget running on the latest CentOS docker image (7.4)
+### Build Version: 3
+Date: 15th September 2017
 
 The Dockerfile should intialise the CentOS image and subscribe to the EPEL repository. The pre-requisites for nzbget are then installed via yum.
 
