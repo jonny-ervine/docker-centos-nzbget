@@ -10,7 +10,7 @@ ADD nzbget-19.1-1.el7.x86_64.rpm /tmp/nzbget-19.1-1.el7.x86_64.rpm
 RUN curl https://negativo17.org/repos/epel-rar.repo -o /etc/yum.repos.d/epel-rar.repo
 RUN curl https://negativo17.org/repos/epel-multimedia.repo -o /etc/yum.repos.d/epel-multimedia.repo
 RUN yum install -y /tmp/nzbget-19.1-1.el7.x86_64.rpm
-RUN yum install -y supervisor par2cmdline unrar p7zip p7zip-plugins unzip ffmpeg
+RUN yum install -y supervisor par2cmdline unrar p7zip p7zip-plugins unzip ffmpeg logrotate
 RUN rm /tmp/nzbget-*
 RUN yum update -y
 RUN yum clean all
